@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -161,55 +161,24 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LED-RGB-THRU">
-<description>&lt;h3&gt;LED - RGB PTH&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Area:5 x 5.8 mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Datasheet Referenced: &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;YSL-R596CR3G4B5C&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-RGB-CA&lt;/li&gt;
-&lt;li&gt;LED-RGB-CC&lt;/li&gt;</description>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
-<pad name="2" x="0.635" y="0" drill="0.6096" diameter="0.6858" shape="long" rot="R90"/>
-<pad name="1" x="1.905" y="0" drill="0.6096" diameter="0.6858" shape="long" rot="R90"/>
-<pad name="3" x="-0.635" y="0" drill="0.6096" diameter="0.6858" shape="long" rot="R90"/>
-<pad name="4" x="-1.905" y="0" drill="0.6096" diameter="0.6858" shape="long" rot="R90"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
-<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
-</package>
-<package name="LED_PIRANHA_5MM">
-<description>&lt;h3&gt;LED 5mm PTH - Piranha&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Pin pitch: 1.5mm, 5.06 mm&lt;/li&gt;
-&lt;li&gt;Area:5mm x 5mm &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="http://cdn.sparkfun.com/datasheets/Components/LED/YSRGB7A5BSW25.pdf"&gt;YSRGB7A5BSW25&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED Pirahana&lt;/li&gt;</description>
-<wire x1="-3.81" y1="-3.81" x2="3.69" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="3.69" y1="-3.81" x2="3.69" y2="3.69" width="0.127" layer="21"/>
-<wire x1="3.69" y1="3.69" x2="-2.81" y2="3.69" width="0.127" layer="21"/>
-<wire x1="-2.81" y1="3.69" x2="-3.81" y2="2.69" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.69" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
-<pad name="-" x="-2.684" y="-2.684" drill="0.9"/>
-<pad name="R" x="2.579" y="-2.696" drill="0.9"/>
-<pad name="B" x="-2.688" y="2.574" drill="0.9"/>
-<pad name="G" x="2.575" y="2.562" drill="0.9"/>
-<text x="-1.65" y="2.323" size="0.6096" layer="25" font="vector" ratio="20">B</text>
-<text x="0.962" y="2.298" size="0.6096" layer="25" font="vector" ratio="20">G</text>
-<text x="1.037" y="-3.131" size="0.6096" layer="25" font="vector" ratio="20">R</text>
-<text x="-1.524" y="-3.031" size="0.6096" layer="25" font="vector" ratio="20">-</text>
-<text x="0" y="4.064" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.81" y="3.4925" radius="0.254" width="0" layer="21"/>
+<package name="PLCC4SMDLED">
+<smd name="1" x="-1.4" y="0.725" dx="1.2" dy="0.9" layer="1"/>
+<smd name="4" x="-1.4" y="-0.725" dx="1.2" dy="0.9" layer="1"/>
+<smd name="3" x="1.4" y="-0.725" dx="1.2" dy="0.9" layer="1"/>
+<smd name="2" x="1.4" y="0.725" dx="1.2" dy="0.9" layer="1"/>
+<wire x1="1.905" y1="-1.5875" x2="-1.905" y2="-1.5875" width="0.1778" layer="21"/>
+<wire x1="-1.7526" y1="1.397" x2="1.7526" y2="1.397" width="0.0254" layer="51"/>
+<text x="0" y="1.74625" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.74625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.7526" y1="-1.397" x2="-1.7526" y2="-1.397" width="0.0254" layer="51"/>
+<wire x1="1.7526" y1="-1.397" x2="1.7526" y2="1.397" width="0.0254" layer="51"/>
+<wire x1="-1.7526" y1="1.397" x2="-1.7526" y2="-1.397" width="0.0254" layer="51"/>
+<wire x1="-1.905" y1="1.5875" x2="1.905" y2="1.5875" width="0.1778" layer="21"/>
+<wire x1="1.905" y1="1.5875" x2="1.905" y2="1.42875" width="0.1778" layer="21"/>
+<wire x1="-1.905" y1="1.42875" x2="-1.905" y2="1.5875" width="0.1778" layer="21"/>
+<wire x1="-1.905" y1="-1.5875" x2="-1.905" y2="-1.42875" width="0.1778" layer="21"/>
+<wire x1="1.905" y1="-1.42875" x2="1.905" y2="-1.5875" width="0.1778" layer="21"/>
+<circle x="-2.28975" y="1.8615" radius="0.254" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -237,62 +206,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED-RGB-CC" prefix="D" uservalue="yes">
+<deviceset name="SUNLED" prefix="D">
 <description>&lt;h3&gt;LED-RGB Common Cathode&lt;/h3&gt;
-
+&lt;p&gt;XZM2CRKM2DGFBB45SCCB&lt;/p&gt;
 &lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;
-&lt;ul&gt;&lt;li&gt; LED RGB-THRU&lt;/li&gt;
-&lt;li&gt; LED_PIRANHA_5MM&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt; PLCC4&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
 
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/9264]”&gt;RGB Diffused Common Cathode- Diffuse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/105]”&gt;RGB Diffused Common Cathode - Clear&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/11679]”&gt;LED-RGB 5mm Square (Piranha)&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/9264]”&gt;Lilypad Prototyping Board&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="LED-RGB-CC" x="-2.54" y="0"/>
+<gate name="G1" symbol="LED-RGB-CC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DIFFUSE" package="LED-RGB-THRU">
+<device name="SMD1" package="PLCC4SMDLED">
 <connects>
-<connect gate="G$1" pin="BLU" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="GRN" pad="3"/>
-<connect gate="G$1" pin="RED" pad="1"/>
+<connect gate="G1" pin="BLU" pad="3"/>
+<connect gate="G1" pin="C" pad="4"/>
+<connect gate="G1" pin="GRN" pad="2"/>
+<connect gate="G1" pin="RED" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-09434"/>
-<attribute name="VALUE" value="DIFFUSE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CLEAR" package="LED-RGB-THRU">
-<connects>
-<connect gate="G$1" pin="BLU" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="GRN" pad="3"/>
-<connect gate="G$1" pin="RED" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08418"/>
-<attribute name="VALUE" value="CLEAR" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PIRANHA" package="LED_PIRANHA_5MM">
-<connects>
-<connect gate="G$1" pin="BLU" pad="B"/>
-<connect gate="G$1" pin="C" pad="-"/>
-<connect gate="G$1" pin="GRN" pad="G"/>
-<connect gate="G$1" pin="RED" pad="R"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="SF_ID" value="COM-11679" constant="no"/>
+<attribute name="PROD_ID" value="DIO-13722" constant="no"/>
+<attribute name="VALUE" value="XZM2CRKM2DGFBB45SCCB" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -972,93 +911,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="TO-92">
-<description>&lt;h3&gt;TO-92 3-Pin PTH Footprint&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Sensors/Temp/TMP35_36_37.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 3&lt;/li&gt;
-&lt;li&gt;Dimensions: 3.68 x 4.83 x 4.83 mm&lt;/li&gt;
-&lt;li&gt;Pitch: 2.54 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TMP36&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="3.048" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TO-92-KIT">
-<description>&lt;h3&gt;TO-92 3-Pin PTH Footprint - KIT Version&lt;/h3&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Sensors/Temp/TMP35_36_37.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 3&lt;/li&gt;
-&lt;li&gt;Dimensions: 3.68 x 4.83 x 4.83 mm&lt;/li&gt;
-&lt;li&gt;Pitch: 2.54 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TMP36&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="3" x="1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<pad name="2" x="0" y="1.905" drill="0.9" diameter="1.8796" stop="no"/>
-<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-1.2675" y="-0.9525" curve="-90"/>
-<vertex x="-2.2224" y="-0.0228" curve="-90.011749"/>
-<vertex x="-1.27" y="0.9526" curve="-90"/>
-<vertex x="-0.32" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="-1.7145" y="-0.0203" curve="-90"/>
-<vertex x="-1.27" y="0.447" curve="-90"/>
-<vertex x="-0.8281" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.2725" y="-0.9525" curve="-90"/>
-<vertex x="0.3176" y="-0.0228" curve="-90.011749"/>
-<vertex x="1.27" y="0.9526" curve="-90"/>
-<vertex x="2.22" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="0.8255" y="-0.0203" curve="-90"/>
-<vertex x="1.27" y="0.447" curve="-90"/>
-<vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="0.0025" y="0.9525" curve="-90"/>
-<vertex x="-0.9524" y="1.8822" curve="-90.011749"/>
-<vertex x="0" y="2.8576" curve="-90"/>
-<vertex x="0.95" y="1.8796" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="1.4605" curve="-90.012891"/>
-<vertex x="-0.4445" y="1.8847" curve="-90"/>
-<vertex x="0" y="2.352" curve="-90"/>
-<vertex x="0.4419" y="1.8949" curve="-90.012967"/>
-</polygon>
-<text x="0" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="2.921" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
-</package>
 <package name="TEMT6000">
 <description>&lt;h3&gt;3-Pin TEMT6000 Ambient Light Sensor&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Sensors/Imaging/TEMT6000.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
@@ -1105,21 +957,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="-1.3716" y1="0.381" x2="-1.3716" y2="-0.381" width="0.2032" layer="21"/>
 </package>
+<package name="SOT23-3">
+<description>&lt;h3&gt;3-Pin Small-Outline Transistor (SOT-23)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 3&lt;/li&gt;
+&lt;li&gt;Area: 2.9 x 2.3 x 1.0 mm&lt;/li&gt;
+&lt;li&gt;Pitch: 0.95 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Devices Using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP9700&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.673" y1="0.7635" x2="-1.527" y2="0.7635" width="0.2032" layer="21"/>
+<wire x1="-1.527" y1="0.7635" x2="-1.527" y2="-0.735" width="0.2032" layer="21"/>
+<wire x1="0.673" y1="0.7635" x2="1.527" y2="0.7635" width="0.2032" layer="21"/>
+<wire x1="1.527" y1="0.7635" x2="1.527" y2="-0.735" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-0.3175" y1="-0.762" x2="0.3175" y2="-0.762" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
-<symbol name="TMP36">
-<description>&lt;h3&gt;TMP36 Precision Analog &amp;deg;C Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;The TMP36 is a low voltage, precision centigrade temperature sensor. It provides a voltage output that is linearly proportional to the Celsius temperature. It also doesn’t require any external calibration to provide typical accuracies of ±1°C at +25°C and ±2°C over the −40°C to +125°C temperature range. We like it because it’s so easy to use: Just give the device a ground and 2.7 to 5.5 VDC and read the voltage on the Vout pin. The output voltage can be converted to temperature easily using the scale factor of 10 mV/°C.&lt;/p&gt;</description>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="VCC" x="-7.62" y="2.54" length="short"/>
-<pin name="GND" x="-7.62" y="-2.54" length="short"/>
-<pin name="VOUT" x="7.62" y="0" length="short" rot="R180"/>
-<text x="-5.08" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-</symbol>
 <symbol name="LIGHTSENSOR">
 <description>&lt;h3&gt;Phototransistor&lt;/h3&gt;
 &lt;p&gt;Low cost ambient light sensors, consisting of a phototransistor in miniature SMD packages. Output voltage varies with light intensity.&lt;/p&gt;</description>
@@ -1150,49 +1017,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.048" y="0.508" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="3.048" y="-0.508" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
 </symbol>
+<symbol name="MCP9700">
+<description>&lt;h3&gt;Microchip MCP9700 Analog-Output Temperature Sensor&lt;/h3&gt;
+&lt;p&gt;The MCP9700 can accurately measure temperature from -40C to +150C. The output of the MCP9700 is calibrated to a slope of 10mV/°C and has a DC offset of 500mV. The offset allows reading negative temperatures without the need for a negative supply. &lt;/p&gt;</description>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="VCC" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="VO" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-7.62" y="-2.794" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMP36" prefix="U" uservalue="yes">
-<description>&lt;h3&gt;TMP36 Precision Analog &amp;deg;C Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;The TMP36 is a low voltage, precision centigrade temperature sensor. It provides a voltage output that is linearly proportional to the Celsius temperature. It also doesn’t require any external calibration to provide typical accuracies of ±1°C at +25°C and ±2°C over the −40°C to +125°C temperature range. We like it because it’s so easy to use: Just give the device a ground and 2.7 to 5.5 VDC and read the voltage on the Vout pin. The output voltage can be converted to temperature easily using the scale factor of 10 mV/°C.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Sensors/Temp/TMP35_36_37.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10988"&gt;Temperature Sensor - TMP36&lt;/a&gt; (SEN-10988)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11649"&gt;SparkFun Danger Shield&lt;/a&gt; (DEV-11649)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="TMP36" x="0" y="0"/>
-</gates>
-<devices>
-<device name="GT9" package="TO-92">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-09880"/>
-<attribute name="SF_ID" value="SEN-10988"/>
-</technology>
-</technologies>
-</device>
-<device name="GT9-KIT" package="TO-92-KIT">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-09880"/>
-<attribute name="SF_ID" value="SEN-10988"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LIGHT_SENSOR" prefix="U">
 <description>&lt;h3&gt;Ambient Light Sensors - Phototransistors&lt;/h3&gt;
 &lt;p&gt;Low cost ambient light sensors, consisting of a phototransistor in miniature SMD packages. Output voltage varies with light intensity.&lt;/p&gt;
@@ -1227,6 +1066,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="IC-11836"/>
 <attribute name="SF_ID" value="SEN-12566"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP9700" prefix="U">
+<description>&lt;h3&gt;Microchip MCP9700 Analog-Output Temperature Sensor&lt;/h3&gt;
+&lt;p&gt;The MCP9700 can accurately measure temperature from -40C to +150C. The output of the MCP9700 is calibrated to a slope of 10mV/°C and has a DC offset of 500mV. The offset allows reading negative temperatures without the need for a negative supply. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8777"&gt;LilyPad Temperature Sensor&lt;/a&gt; (DEV-08777)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12651"&gt;SparkFun Digital Sandbox&lt;/a&gt; (DEV-12651)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP9700" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TT" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VO" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-08917"/>
 </technology>
 </technologies>
 </device>
@@ -8908,7 +8774,6 @@ OSHW_LOGO</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="D7" library="SparkFun-LED" deviceset="LED-RGB-CC" device="CLEAR" value="CLEAR"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="200OHM" device="-0603-1/10W-1%" value="200"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
@@ -8917,7 +8782,6 @@ OSHW_LOGO</description>
 <part name="U$12" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$14" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$15" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U1" library="SparkFun-Sensors" deviceset="TMP36" device="GT9-KIT"/>
 <part name="U$11" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$22" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$23" library="TAB" deviceset="GATOR_MINI" device=""/>
@@ -8936,6 +8800,8 @@ OSHW_LOGO</description>
 <part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="UFIDUCIAL" package3d_urn="urn:adsk.eagle:package:37111/1"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="SFE_LOGO_FLAME" device=".1_INCH" package3d_urn="urn:adsk.eagle:package:37114/1"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="OSHW-LOGO" device="S" package3d_urn="urn:adsk.eagle:package:37099/1"/>
+<part name="U3" library="SparkFun-Sensors" deviceset="MCP9700" device="TT"/>
+<part name="D1" library="SparkFun-LED" deviceset="SUNLED" device="SMD1" value="XZM2CRKM2DGFBB45SCCB"/>
 </parts>
 <sheets>
 <sheet>
@@ -8950,7 +8816,6 @@ Light Sensor</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="D7" gate="G$1" x="58.42" y="114.3"/>
 <instance part="R8" gate="G$1" x="30.48" y="121.92"/>
 <instance part="R9" gate="G$1" x="30.48" y="114.3"/>
 <instance part="R10" gate="G$1" x="30.48" y="106.68"/>
@@ -8959,7 +8824,6 @@ Light Sensor</text>
 <instance part="U$12" gate="G$1" x="86.36" y="114.3"/>
 <instance part="U$14" gate="G$1" x="17.78" y="114.3" rot="MR0"/>
 <instance part="U$15" gate="G$1" x="17.78" y="106.68" rot="MR0"/>
-<instance part="U1" gate="G$1" x="53.34" y="152.4"/>
 <instance part="U$11" gate="G$1" x="20.32" y="154.94" rot="MR0"/>
 <instance part="U$22" gate="G$1" x="20.32" y="149.86" rot="MR0"/>
 <instance part="U$23" gate="G$1" x="76.2" y="152.4"/>
@@ -8978,28 +8842,32 @@ Light Sensor</text>
 <instance part="FD4" gate="G$1" x="220.98" y="27.94"/>
 <instance part="LOGO1" gate="G$1" x="147.32" y="38.1"/>
 <instance part="LOGO2" gate="G$1" x="170.18" y="45.72"/>
+<instance part="U3" gate="G$1" x="55.88" y="149.86"/>
+<instance part="D1" gate="G1" x="58.42" y="114.3"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="71.12" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="114.3" x2="78.74" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="78.74" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
 <junction x="78.74" y="114.3"/>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
+<pinref part="D1" gate="G1" pin="C"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="22.86" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="160.02" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
 <junction x="33.02" y="154.94"/>
+<wire x1="40.64" y1="154.94" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
+<wire x1="40.64" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C1"/>
@@ -9014,12 +8882,12 @@ Light Sensor</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$22" gate="G$1" pin="P$1"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="35.56" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="144.78" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
 <junction x="35.56" y="149.86"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -9033,27 +8901,27 @@ Light Sensor</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="D7" gate="G$1" pin="BLU"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G1" pin="BLU"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="D7" gate="G$1" pin="RED"/>
 <wire x1="48.26" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="116.84" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G1" pin="RED"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="D7" gate="G$1" pin="GRN"/>
 <wire x1="48.26" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="111.76" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G1" pin="GRN"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -9079,9 +8947,9 @@ Light Sensor</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
 <pinref part="U$23" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="VO"/>
+<wire x1="66.04" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
