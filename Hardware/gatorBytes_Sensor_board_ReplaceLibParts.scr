@@ -1,0 +1,24 @@
+# 'EAGLE Version 9.1.0 Copyright (c) 1988-2018 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Migrate parts to 'C:/Github/gatorBytes_sensor_board/Hardware/gatorBytes_Sensor_board.lbr'
+USE -*;
+USE 'C:/Github/gatorBytes_sensor_board/Hardware/gatorBytes_Sensor_board.lbr';
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+REPLACE U$10 TAB_GATOR_MINI;
+REPLACE U$11 TAB_GATOR_MINI;
+REPLACE U$12 TAB_GATOR_MINI;
+REPLACE U$14 TAB_GATOR_MINI;
+REPLACE U$15 TAB_GATOR_MINI;
+REPLACE U$22 TAB_GATOR_MINI;
+REPLACE U$23 TAB_GATOR_MINI;
+REPLACE U$24 TAB_GATOR_MINI;
+REPLACE U$25 TAB_GATOR_MINI;
+REPLACE U$26 TAB_GATOR_MINI;
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;

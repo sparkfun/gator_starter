@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,19 +41,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -161,77 +161,187 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="PLCC4SMDLED">
-<smd name="1" x="-1.4" y="0.725" dx="1.2" dy="0.9" layer="1"/>
-<smd name="4" x="-1.4" y="-0.725" dx="1.2" dy="0.9" layer="1"/>
-<smd name="3" x="1.4" y="-0.725" dx="1.2" dy="0.9" layer="1"/>
-<smd name="2" x="1.4" y="0.725" dx="1.2" dy="0.9" layer="1"/>
-<wire x1="1.905" y1="-1.5875" x2="-1.905" y2="-1.5875" width="0.1778" layer="21"/>
-<wire x1="-1.7526" y1="1.397" x2="1.7526" y2="1.397" width="0.0254" layer="51"/>
-<text x="0" y="1.74625" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.74625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="1.7526" y1="-1.397" x2="-1.7526" y2="-1.397" width="0.0254" layer="51"/>
-<wire x1="1.7526" y1="-1.397" x2="1.7526" y2="1.397" width="0.0254" layer="51"/>
-<wire x1="-1.7526" y1="1.397" x2="-1.7526" y2="-1.397" width="0.0254" layer="51"/>
-<wire x1="-1.905" y1="1.5875" x2="1.905" y2="1.5875" width="0.1778" layer="21"/>
-<wire x1="1.905" y1="1.5875" x2="1.905" y2="1.42875" width="0.1778" layer="21"/>
-<wire x1="-1.905" y1="1.42875" x2="-1.905" y2="1.5875" width="0.1778" layer="21"/>
-<wire x1="-1.905" y1="-1.5875" x2="-1.905" y2="-1.42875" width="0.1778" layer="21"/>
-<wire x1="1.905" y1="-1.42875" x2="1.905" y2="-1.5875" width="0.1778" layer="21"/>
-<circle x="-2.28975" y="1.8615" radius="0.254" width="0" layer="21"/>
+<package name="LED-TRICOLOR-SMD">
+<description>&lt;h3&gt;Tri-Color SMD&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Specifications:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Pin pitch: 2.0mm&lt;/li&gt;
+&lt;li&gt;Area: 2.6mm x 3.2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/DJS-BRGBC-TR8.pdf"&gt; DJS-BRGBC-TR8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Example device(s):&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;TRI-COLOR LED&lt;/p&gt;</description>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="-1.6" x2="1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="-1.6" x2="1.3" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="1.3" x2="-1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="1.6" x2="1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="1.6" x2="1.3" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="0" x2="1.8" y2="0" width="0.2032" layer="21"/>
+<smd name="G" x="-1.5" y="-0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<smd name="B" x="-1.5" y="0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<smd name="R" x="1.5" y="-0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<smd name="A" x="1.5" y="0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.6" y1="0" x2="1.8" y2="0" width="0.2032" layer="51"/>
+</package>
+<package name="LED-RGB-THRU">
+<description>&lt;h3&gt;LED - RGB PTH&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Area:5 x 5.8 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Datasheet Referenced: &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;YSL-R596CR3G4B5C&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED-RGB-CA&lt;/li&gt;
+&lt;li&gt;LED-RGB-CC&lt;/li&gt;</description>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
+<pad name="2" x="0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="1" x="1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="3" x="-0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="4" x="-1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
+<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
+</package>
+<package name="P-LCC-4-3">
+<description>&lt;h3&gt;LED P-LCC-4-3 - SMT&lt;/h3&gt;
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.7mm &lt;/li&gt;
+&lt;li&gt;Size: 3.2*2.8*1.9mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="http://www.fairchip.com/pdf/Everlight/67-23-R6GHBHC-B01-2T.pdf"&gt;R6GHBHC&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device:
+&lt;ul&gt;&lt;li&gt;0.13_RGB_LED&lt;/li&gt;</description>
+<wire x1="1.75" y1="-1.4" x2="1.75" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="-1.75" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="1.75" y2="-1.4" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
+<smd name="2" x="-1.7" y="-0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.7" y="0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<smd name="4" x="1.7" y="0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="1.7" y="-0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<text x="0" y="1.65995" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5695" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.508" y1="-1.4" x2="0.508" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-0.1016" x2="-1.75" y2="0.1016" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="1.4" x2="0.508" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="-0.1016" x2="1.75" y2="0.1016" width="0.2032" layer="21"/>
+<wire x1="-1.1662" y1="1.3598" x2="-1.7162" y2="0.8098" width="0.2032" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="0" y="0.5588" curve="90"/>
+<vertex x="-0.5588" y="0"/>
+</polygon>
+<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
+<circle x="-1.905" y="1.74625" radius="0.0508" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="LED-RGB-CC">
-<description>&lt;h3&gt;RGB LED - Common Cathode&lt;/h3&gt;
-&lt;p&gt;4 pin Common Cathode RGB LED&lt;/p&gt;</description>
+<symbol name="LED-RGB-CA">
+<description>&lt;h3&gt;RGB LED - Common Anode&lt;/h3&gt;
+&lt;p&gt;4 pin Common Anode RGB LED&lt;/p&gt;</description>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
 <text x="-7.62" y="5.3975" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-7.62" y="-5.3975" size="1.778" layer="95" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="GRN" x="-10.16" y="-2.54" visible="pin" length="short"/>
 <pin name="BLU" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="C" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="RED" x="-10.16" y="2.54" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SUNLED" prefix="D">
-<description>&lt;h3&gt;LED-RGB Common Cathode&lt;/h3&gt;
-&lt;p&gt;XZM2CRKM2DGFBB45SCCB&lt;/p&gt;
-&lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;
-&lt;ul&gt;&lt;li&gt; PLCC4&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
+<deviceset name="LED-RGB-CA" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;LED-RGB Diffused Common Anode&lt;/h3&gt;
 
+&lt;p&gt;
+&lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt; LED RGB-THRU&lt;/li&gt;
+&lt;li&gt; P-LCC-4-3&lt;/li&gt;
+&lt;li&gt;LED-TRICOLOR-SMD&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/9264]”&gt;Lilypad Prototyping Board&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/10821]”&gt;RGB Diffused Common Anode- Diffuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/10820]”&gt;RGB Diffused Common Anode - Clear&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/13614]”&gt;Qduino Mini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/7844”&gt;Triple Output LED RGB - SMD&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G1" symbol="LED-RGB-CC" x="0" y="0"/>
+<gate name="G$1" symbol="LED-RGB-CA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMD1" package="PLCC4SMDLED">
+<device name="DIFFUSE" package="LED-RGB-THRU">
 <connects>
-<connect gate="G1" pin="BLU" pad="3"/>
-<connect gate="G1" pin="C" pad="4"/>
-<connect gate="G1" pin="GRN" pad="2"/>
-<connect gate="G1" pin="RED" pad="1"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="BLU" pad="4"/>
+<connect gate="G$1" pin="GRN" pad="3"/>
+<connect gate="G$1" pin="RED" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-13722" constant="no"/>
-<attribute name="VALUE" value="XZM2CRKM2DGFBB45SCCB" constant="no"/>
+<attribute name="PROD_ID" value="DIO-10632"/>
+<attribute name="VALUE" value="DIFFUSE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CLEAR" package="LED-RGB-THRU">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="BLU" pad="4"/>
+<connect gate="G$1" pin="GRN" pad="3"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-10631"/>
+<attribute name="VALUE" value="CLEAR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PLCC" package="P-LCC-4-3">
+<connects>
+<connect gate="G$1" pin="A" pad="4"/>
+<connect gate="G$1" pin="BLU" pad="3"/>
+<connect gate="G$1" pin="GRN" pad="2"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12986" constant="no"/>
+<attribute name="VALUE" value="RGB" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="LED-TRICOLOR-SMD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="BLU" pad="B"/>
+<connect gate="G$1" pin="GRN" pad="G"/>
+<connect gate="G$1" pin="RED" pad="R"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08324" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8763,6 +8873,80 @@ OSHW_LOGO</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="GATOR">
+<pad name="P$1" x="0" y="-6.096" drill="4.0005" diameter="5.08"/>
+<pad name="P$2" x="0" y="-0.254" drill="4.0005" diameter="5.08"/>
+<polygon width="0.254" layer="1">
+<vertex x="0" y="2.794" curve="90"/>
+<vertex x="-3.048" y="-0.254"/>
+<vertex x="-3.048" y="-10.16"/>
+<vertex x="3.048" y="-10.16"/>
+<vertex x="3.048" y="-0.254" curve="90"/>
+</polygon>
+<polygon width="0.254" layer="16">
+<vertex x="0" y="2.794" curve="90"/>
+<vertex x="-3.048" y="-0.254"/>
+<vertex x="-3.048" y="-10.16"/>
+<vertex x="3.048" y="-10.16"/>
+<vertex x="3.048" y="-0.254" curve="90"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="3.1496" y="-10.2616"/>
+<vertex x="-3.1496" y="-10.2616"/>
+<vertex x="-3.1496" y="-0.1016" curve="-97.62815"/>
+<vertex x="0" y="2.8448" curve="-90"/>
+<vertex x="3.1496" y="0"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="3.175" y="-10.2108"/>
+<vertex x="-3.1242" y="-10.2108"/>
+<vertex x="-3.1242" y="-0.0508" curve="-97.62815"/>
+<vertex x="0.0254" y="2.8956" curve="-90"/>
+<vertex x="3.175" y="0.0508"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="MICRO_BIT_GATOR_CLIP">
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="middle"/>
+<text x="0" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GATOR" prefix="J">
+<gates>
+<gate name="G$1" symbol="MICRO_BIT_GATOR_CLIP" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="GATOR">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8778,20 +8962,20 @@ OSHW_LOGO</description>
 <part name="R9" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U$10" library="TAB" deviceset="GATOR_MINI" device=""/>
+<part name="U$10" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="U$12" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$14" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$15" library="TAB" deviceset="GATOR_MINI" device=""/>
+<part name="U$14" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$15" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="U$11" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$22" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$23" library="TAB" deviceset="GATOR_MINI" device=""/>
+<part name="U$23" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-Sensors" deviceset="LIGHT_SENSOR" device="TEMT6000"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U$24" library="TAB" deviceset="GATOR_MINI" device=""/>
+<part name="U$24" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="U$25" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$26" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="UFIDUCIAL" package3d_urn="urn:adsk.eagle:package:37111/1"/>
@@ -8801,7 +8985,11 @@ OSHW_LOGO</description>
 <part name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="SFE_LOGO_FLAME" device=".1_INCH" package3d_urn="urn:adsk.eagle:package:37114/1"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="OSHW-LOGO" device="S" package3d_urn="urn:adsk.eagle:package:37099/1"/>
 <part name="U3" library="SparkFun-Sensors" deviceset="MCP9700" device="TT"/>
-<part name="D1" library="SparkFun-LED" deviceset="SUNLED" device="SMD1" value="XZM2CRKM2DGFBB45SCCB"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-RGB-CA" device="SMD" value="XZM2CRKM2DGFBB45SCCB"/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="U$19" library="TAB" deviceset="GATOR_MINI" device=""/>
+<part name="U$35" library="TAB" deviceset="GATOR_MINI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8843,7 +9031,11 @@ Light Sensor</text>
 <instance part="LOGO1" gate="G$1" x="147.32" y="38.1"/>
 <instance part="LOGO2" gate="G$1" x="170.18" y="45.72"/>
 <instance part="U3" gate="G$1" x="55.88" y="149.86"/>
-<instance part="D1" gate="G1" x="58.42" y="114.3"/>
+<instance part="D1" gate="G$1" x="58.42" y="114.3"/>
+<instance part="SUPPLY1" gate="G$1" x="198.12" y="170.18"/>
+<instance part="GND1" gate="1" x="198.12" y="152.4"/>
+<instance part="U$19" gate="G$1" x="203.2" y="167.64"/>
+<instance part="U$35" gate="G$1" x="203.2" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -8856,7 +9048,7 @@ Light Sensor</text>
 <wire x1="78.74" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
 <junction x="78.74" y="114.3"/>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
-<pinref part="D1" gate="G1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
@@ -8878,6 +9070,12 @@ Light Sensor</text>
 <pinref part="U$26" gate="G$1" pin="P$1"/>
 <junction x="139.7" y="167.64"/>
 </segment>
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<wire x1="198.12" y1="170.18" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<wire x1="198.12" y1="167.64" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -8898,12 +9096,18 @@ Light Sensor</text>
 <junction x="139.7" y="127"/>
 <pinref part="U$25" gate="G$1" pin="P$1"/>
 </segment>
+<segment>
+<pinref part="U$35" gate="G$1" pin="P$1"/>
+<wire x1="200.66" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="198.12" y1="157.48" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G1" pin="BLU"/>
+<pinref part="D1" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -8912,7 +9116,7 @@ Light Sensor</text>
 <wire x1="38.1" y1="116.84" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G1" pin="RED"/>
+<pinref part="D1" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -8921,7 +9125,7 @@ Light Sensor</text>
 <wire x1="38.1" y1="111.76" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G1" pin="GRN"/>
+<pinref part="D1" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 <net name="N$14" class="0">
