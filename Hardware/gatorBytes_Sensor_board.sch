@@ -8877,7 +8877,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$15" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="U$11" library="SparkFun-Connectors" deviceset="TAB_GATOR_MINI" device=""/>
 <part name="U$22" library="SparkFun-Connectors" deviceset="TAB_GATOR_MINI" device=""/>
-<part name="U$23" library="SparkFun-Connectors" deviceset="TAB_GATOR_MINI" device=""/>
+<part name="U$23" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-Sensors" deviceset="LIGHT_SENSOR" device="TEMT6000"/>
