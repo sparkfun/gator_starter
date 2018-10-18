@@ -19,7 +19,7 @@ Documentation
 
 Product Versions
 ----------------
-* [SEN-14891](https://www.sparkfun.com/products/14891)- The gator:control creates gator-clippable buttons and switches.
+* [SEN-14891](https://www.sparkfun.com/products/14891)- The gator:starter contains a few gator-clippable sensors (Temperature and Light) along with an RGB LED
 
 License Information
 -------------------
