@@ -1,4 +1,4 @@
-SparkFun gator:starter
+SparkFun gator:starter Protosnap
 ========================================
 
 ![SparkFun gator:starter](https://cdn.sparkfun.com/r/500-500/assets/parts/1/3/1/7/3/SEN-14891-1.jpg)
