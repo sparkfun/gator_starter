@@ -19,7 +19,7 @@ Documentation
 
 Product Versions
 ----------------
-* SEN-14891](https://www.sparkfun.com/products/14891)- The gator:control creates gator-clippable buttons and switches.
+* [SEN-14891](https://www.sparkfun.com/products/14891)- The gator:control creates gator-clippable buttons and switches.
 
 License Information
 -------------------
