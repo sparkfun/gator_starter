@@ -10,11 +10,13 @@ The gator:starter breaks out a temperature sensor, light sensor, and RGB LED int
 Repository Contents
 -------------------
 
+* **/Firmware** - Example code used with the gator:starter. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
+* **[Library](https://github.com/sparkfun/pxt-gator-temp) - PXT temperature sensor firmware
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/gatorstarter-protosnap-hookup-guide)** - Basic hookup guide for the gator:starter.
 
 Product Versions
