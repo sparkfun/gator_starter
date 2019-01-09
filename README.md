@@ -16,7 +16,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/pxt-gator-temp) - PXT temperature sensor firmware
+* **[Library](https://github.com/sparkfun/pxt-gator-temp)** - PXT temperature sensor firmware
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/gatorstarter-protosnap-hookup-guide)** - Basic hookup guide for the gator:starter.
 
 Product Versions
